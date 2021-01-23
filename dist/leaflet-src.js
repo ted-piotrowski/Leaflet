@@ -1,5 +1,5 @@
 /* @preserve
- * Leaflet 1.7.1, a JS library for interactive maps. http://leafletjs.com
+ * Leaflet 1.6.0+hotfix.bd88f73, a JS library for interactive maps. http://leafletjs.com
  * (c) 2010-2019 Vladimir Agafonkin, (c) 2010-2011 CloudMade
  */
 
@@ -9,7 +9,7 @@
   (factory((global.L = {})));
 }(this, (function (exports) { 'use strict';
 
-  var version = "1.7.1";
+  var version = "1.6.0+hotfix.436430db";
 
   /*
    * @namespace Util
@@ -2175,6 +2175,7 @@
   			touch$$1.button = 0;
   			handler(touch$$1);
   			last = null;
+  			doubleTap = false;
   		}
   	}
 
